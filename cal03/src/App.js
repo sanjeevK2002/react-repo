@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div className='flex flex-col justify-center items-center min-h-screen bg-slate-200'>
       <div className='w-80 p-4 bg-white rounded shadow-lg '>
-        <div className='bg-slate-100 border pr-2  text-right font-bold text-3xl'>{input}</div>
+        <div className='bg-slate-100 border pr-2  text-right font-bold text-3xl overflow-hidden text-ellipsis whitespace-nowrap'>{input}</div>
         <div className='mt-3 border px-2 grid  grid-cols-4 gap-2'>
           <button onClick={() => typeButton('C')} className='bg-red-500 rounded mt-1 text-white shadow-lg'>C</button>
           <button onClick={() => typeButton('<')} className='bg-yellow-300 mt-1 rounded shadow-lg'>&lt;</button>
