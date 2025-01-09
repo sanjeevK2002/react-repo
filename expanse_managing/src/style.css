@@ -37,6 +37,7 @@ body{
     box-shadow: #b68362 5px 5px 5px;
     padding: 25px;
     display: flex;
+    background-color: FFEBD4;
     flex-direction: column;
     margin-top: 25px;
     width: 70%;
